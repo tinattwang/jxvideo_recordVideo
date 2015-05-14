@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory  
+            android:title="设置"> 
+             
+    <EditTextPreference
+        android:key="gateway"
+        android:summary="设置传输的IP地址"
+        android:title="@string/gatewayPrefTitle" />
+    
+    <EditTextPreference
+        android:key="port"
+        android:summary="设置传输的端口"
+        android:title="@string/port" />
+
+    <ListPreference
+        android:defaultValue="100"
+        android:entries="@array/bitrateArray"
+        android:entryValues="@array/bitrateArray"
+        android:key="bitrate"
+        android:summary="建议码率设置在300-400"
+        android:title="@string/bitrate" />
+    <ListPreference
+        android:defaultValue="8"
+        android:entries="@array/frArray"
+        android:entryValues="@array/frArray"
+        android:key="framerate"
+        android:summary="建议帧率设置在15帧以内"
+        android:title="@string/frameRate" />
+     <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/fbArray"
+        android:entryValues="@array/fbValueArray"
+        android:key="resolution"
+        android:summary="如果画面卡顿，建议降低分辨率"
+        android:title="@string/resolution" />
+     
+    </PreferenceCategory>
+ 
+    <PreferenceCategory  
+            android:title="关于">  
+        <PreferenceScreen  
+                android:key="screen_preference"  
+                android:title="版本                                    1.0.0"  
+                android:summary=""/>  
+        <PreferenceScreen  
+                android:key="screen_preference"  
+                android:title="北京大洋润博科技有限公司出品"  
+                android:summary=""/>  
+    </PreferenceCategory> 
+    
+    
+   
+  	    <!--  
+    <ListPreference
+        android:defaultValue="50"
+        android:entries="@array/gopArray"
+        android:entryValues="@array/gopArray"
+        android:key="gop"
+        android:title="@string/gop" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/audioDecoderArray"
+        android:entryValues="@array/audioDecoderValueArray"
+        android:key="audioDecoder"
+        
+        android:title="@string/audioDecoder" /> 
+     <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/isRecordLocalVideo"
+        android:entryValues="@array/isRecordLocalVideoValueArray"
+        android:key="localRecord"
+        android:title="@string/localRecord" />
+	-->
+</PreferenceScreen>

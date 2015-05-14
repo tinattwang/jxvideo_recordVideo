@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+    <color name="login">#181818</color>
+    <color name="black">#000000</color>
+    
+    <color name="select_category">#cccccc</color>
+    <color name="not_select_category">#55575f</color>
+    <color name="you_like">#6E9FB4</color>
+    <color name="not_select_layout">#dcdcdc</color>
+    <color name="select_layout">#2d2e32</color>
+    <color name="updata_red">#ff0000</color>
+    <color name="bg_category">#333740</color>
+     <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="gold">#b89766</color>
+    <color name="desc">#AAAAAA</color>
+    
+    <color name="video_title">#ffffff</color>
+    <color name="video_file_filesize">#cccccc</color>
+    <color name="video_file_duration">#cccccc</color>
+    <color name="video_file_position">#00bfff</color>
+    <color name="current_folder_bg">#999900</color>
+    <color name="current_folder_color">#ffffff</color>
+    <color name="selected_item_bg">#296DC1</color>
+    <color name="default_bg">#646464</color>
+    <color name="divider_color">#808080</color>
+    <color name="setting_title_color">#6CABE7</color>
+    <color name="text_color">#ffffff</color>
+    <color name="text_shadow_color">#ff000000</color>
+    <color name="color_black">#000000</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_red">#ff0000</color>
+    <color name="color_gray_alpha">#104d4d4d</color>
+    <color name="color_gray">#4d4d4d</color>
+    <color name="color_black_alpha">#00000000</color>
+    <color name="color_black_tp70">#B2000000</color>
+    <color name="color_transparent">#00000000</color>
+     <color name="color_blue">#68bee6</color>
+   
+    
+    <color name="main_tab_bg">#383838</color>
+    <color name="main_tab_title_font">#FFFFFF</color>
+    <color name="main_tab_tip_font">#C80000</color>
+    
+    <color name="play_lock_progress_bk">#0071BC</color>
+    <color name="bg_cell1">#ffe6e6e6</color>
+    <color name="bg_cell2">#ffcbcbcb</color>
+    <color name="color_darkgray">#ff555555</color>
+    <color name="color_lightgray">#ffaaaaaa</color>
+     <color name="play_item_lightgray">#8b8986</color>
+    
+</resources>

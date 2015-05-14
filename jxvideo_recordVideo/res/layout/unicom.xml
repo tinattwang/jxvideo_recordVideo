@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/back_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/back_button" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="right"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/LoadingImage"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/unice" >
+                </ImageView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/LoadingImage"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:src="@color/color_gray" >
+        </ImageView>
+
+
+
+        <LinearLayout
+            android:id="@+id/order_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@color/login"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/order"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/login"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="预定业务" />
+            
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/LoadingImage"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:src="@color/color_gray"
+            android:visibility="visible" >
+        </ImageView>
+
+        <LinearLayout
+            android:id="@+id/unorder_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@color/login"
+            android:orientation="horizontal" >
+              <Button
+                android:id="@+id/unsubscribe"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/login"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="退订业务" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/LoadingImage"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:src="@color/color_gray" >
+        </ImageView>
+
+        <LinearLayout
+            android:id="@+id/query_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@color/login"
+            android:orientation="horizontal" >
+                <Button
+                android:id="@+id/query"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/login"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="查询业务" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/LoadingImage"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:src="@color/color_gray" >
+        </ImageView>
+    </LinearLayout>
+
+</RelativeLayout>
