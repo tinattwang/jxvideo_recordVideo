@@ -1,0 +1,1 @@
+if we record vedio for a long time, the audio record class cannot stop normally
